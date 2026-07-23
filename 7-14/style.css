@@ -1,8 +1,9 @@
 h1 {
     font-size: 40px;
     text-align: center;
-    margin: 70px
-}
+    margin: 70px;
+    line-height: 0.9;
+}   
 
 h2 {
     font-weight: bold;
@@ -11,11 +12,10 @@ h2 {
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px
-}
+     display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}   
 
 .page {
     padding: 20px;
