@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    margin: 10px;
+}   
+
+.page {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav {
+    background:rgb(255, 245, 233);
+    padding: 12px 20px;
+    margin: 0 0 20px;
+}
+
+nav a {
+    color:rgb(99, 73, 51);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
