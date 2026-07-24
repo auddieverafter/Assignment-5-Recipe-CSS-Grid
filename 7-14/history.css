@@ -3,6 +3,10 @@ h1 {
     margin: 10px;
 }   
 
+body {
+    margin: 0;
+}
+
 .page {
     padding: 10px;
     border-radius: 5px;
