@@ -7,6 +7,7 @@ h1 {
 
 body {
     margin: 0;
+    background-color: #f5eadf;
 }
 
 h2 {
@@ -52,13 +53,13 @@ h2 {
 }
 
 nav {
-    background:rgb(255, 245, 233);
+    background:rgb(101, 78, 51);
     padding: 12px 20px;
     margin: 0 0 20px;
 }
 
 nav a {
-    color:rgb(99, 73, 51);
+    color:rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 600;
 }
