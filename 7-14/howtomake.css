@@ -70,7 +70,7 @@ nav a {
 .page2 {
     display: grid;
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin: 45px;
     background-color:rgb(255, 255, 255);
 } 
