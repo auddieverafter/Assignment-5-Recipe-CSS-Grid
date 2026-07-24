@@ -29,14 +29,14 @@ h2 {
 }
 
 nav {
-    background:rgb(255, 245, 233)
+    background:rgb(255, 245, 233);
     padding: 12px 20px;
     margin-bottom: 20px;
 }
 
 nav a {
-    color:rgb(99, 73, 51)
-    decoration: none;
-    font weight: 600;
+    color:rgb(99, 73, 51);
+    text-decoration: none;
+    font-weight: 600;
 }
 
