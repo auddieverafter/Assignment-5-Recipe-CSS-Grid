@@ -10,9 +10,23 @@ body {
 }
 
 .page {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) minmax(300px, 1.2fr);
+    gap: 30px;
+    align-items: start;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
+}
+
+.history-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.history-content h2 {
+    margin-top: 0;
 }
 
 nav {
@@ -29,10 +43,16 @@ nav a {
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .image-container img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 700px) {
+    .page {
+        grid-template-columns: 1fr;
+    }
 }
