@@ -1,7 +1,7 @@
 h1 {
     font-size: 40px;
     text-align: center;
-    margin: 10px;
+    margin: 2px;
     line-height: 0.9;
 }   
 
@@ -15,12 +15,25 @@ h2 {
     text-align: center;
 }
 
-.image-container {
+.image-row {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.image-container img {
+.image-container,
+.image-box,
+.image-crate {
+    flex: 1 1 250px;
+    max-width: 350px;
+}
+
+.image-container img,
+.image-box img,
+.image-crate img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
