@@ -34,11 +34,9 @@ body {
 
 .making-content h2 {
     margin-top: 0;
-}
-
-.making-content {
     font-size: 1.1rem;
     line-height: 1.6;
+    background-color:rgb(255, 255, 255);
 }
 
 nav {
@@ -68,3 +66,4 @@ nav a {
         grid-template-columns: 1fr;
     }
 }
+
